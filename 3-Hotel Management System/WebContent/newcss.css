@@ -1,0 +1,49 @@
+@CHARSET "ISO-8859-1";
+*{
+		margin:0px;
+		padding:0px;
+		box-sizing:border-box;
+}
+body{
+	background: url("img/hotel1.jpg");
+	background-attachment: cover;
+}
+.login{
+		width: 350px;
+		height:300px;
+		background-color: #555;
+		position: absolute;
+		top:50%;
+		left:50%;
+		transform:translate(-50%,-50%);
+}
+.login h1{
+		text-transform: uppercase;
+		color: white;
+		text-align: center;
+}
+.login input[type=text],input[type=password]{
+	
+	width: 80%;
+	border: none;
+	background:none;
+	border-bottom: 2px solid white;
+	color:White;
+	margin: 8px 30px;
+	padding: 15px;
+	
+}
+.login input[type=submit],input[type=reset]{
+	
+	width: 80%;
+	background:none;
+	color:White;
+	border:2px solid blue;
+	border-radius:20px;
+	margin: 8px 30px;
+	padding: 12px;
+	
+}
+.login input[type=submit]:hover,input[type=reset]:hover{
+	background-color: green;
+}

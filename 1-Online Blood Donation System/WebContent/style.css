@@ -1,0 +1,54 @@
+@CHARSET "ISO-8859-1";
+.header{
+	text-transform: uppercase;
+	text-align:center;
+	padding:20px;
+	background-color:#ff1a1a;
+	color:white;
+}
+#mySidenav a {
+  position: absolute; 
+  left: -80px; 
+  transition: 0.3s;
+  padding: 15px; 
+  width: 120px; 
+  text-decoration: none; 
+  font-size: 20px; 
+  color: white;
+  border-radius: 0 5px 5px 0; 
+}
+
+#mySidenav a:hover {
+  left: 0;
+}
+
+#home {
+  top: 80px;
+  background-color: #4CAF50;
+}
+
+#blood {
+  top: 140px;
+  background-color: #2196F3; 
+}
+
+#donation {
+  top: 200px;
+  background-color: #f44336; 
+}
+
+#camp	{
+	top:260px;
+	 background-color: #ff413a;
+}
+#contact {
+  top: 320px;
+  background-color: #555 ;
+}
+.main{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-40%);
+	
+}

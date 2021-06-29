@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Pharmacy Management System</title>
+<link type="text/css" rel="stylesheet" href="mycss.css"/>
+</head>
+<body>
+<div class="header">
+	<img alt="" src="img/logo.jpg">
+	<h1>Pharmacy Management System</h1>
+</div>
+<div class="navbar">
+  <a href="loginprocess.jsp" class="right">Login</a>
+</div>
+<div class="container">
+	<div class="myslide"><img src="img/img1.jpg" style="width:100%" /></div>
+	<div class="myslide"><img src="img/img2.jpg" style="width:100%" /></div>
+	<div class="myslide"><img src="img/img3.jpg" style="width:100%" /></div>
+	<div class="myslide"><img src="img/img4.jpg" style="width:100%" /></div>
+</div>
+<script type="text/javascript">
+	var slideIndex = 0;
+	showSlides();
+
+	function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("myslide");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+
+</script>
+</body>
+</html>

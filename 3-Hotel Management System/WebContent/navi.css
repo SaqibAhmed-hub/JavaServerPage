@@ -1,0 +1,32 @@
+@CHARSET "ISO-8859-1";
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+	}
+.nav{
+	width:200px;
+	height:100%;
+	background-color: #222;
+	z-index: 1;
+	overflow-x: hidden; 
+	position: fixed;
+	padding-top:20px;
+}
+
+.nav a{
+	text-align:center;
+	color:#fff;
+	padding:10px 16px 10px 16px;
+	font-size: 22px;
+	text-decoration: none;
+	display:block;
+}
+.nav a:hover{
+	color:green;
+
+}
+.main{
+	margin-left: 200px;
+	padding: 0px 10px;
+}

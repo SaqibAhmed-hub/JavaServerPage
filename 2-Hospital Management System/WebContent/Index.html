@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Hospital Management System</title>
+<style type="text/css">
+*{
+	box-sizing:border box;
+}
+.head {
+	background-color: blue;
+	padding:30px;
+	text-align: center;
+	color:white;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.head h1{
+	text-transform: Uppercase;
+	font-size: 40px;
+	
+}
+.card{
+		width: 350px;
+		height: 350px;
+		background-color: #555;
+		position:absolute;
+		top:40%;
+		left:70%;
+		text-align:center;
+		tranform: translate(-50%,-50%);
+
+}
+.card h1{
+	text-align:center;
+	text-transform: uppercase;
+	color:white;
+}
+.card input[type=text],input[type=password]{
+	width:90%;
+	padding:10px 8px;
+	margin:10px;
+	font-size: 16px;
+	outline:none;
+	border:none;
+	background-color: #555;
+	border-bottom: 2px solid blue;
+	color:white;	
+}
+.card input[type=submit],input[type=reset]{
+	width:80%;
+	padding:10px;
+	margin:10px;
+	font-size:14px;
+	background-color: #4cf049;
+	color:white;
+	border:none;
+	border-radius:5px;
+}
+</style>
+</head>
+<body>
+<div class="head">
+<h1>Hospital Management System</h1>
+</div>
+<div class="card">
+<form action="loginprocess.jsp" method="post">
+		<h1>Login</h1>
+		<input type="text" name="uname" placeholder="Enter your Username " required>
+		<input type="password" name="pass" placeholder="Enter Your Password" required>
+		<input type="submit" value="Login">
+		<input type="reset" value="Cancel">
+</form>
+<br>
+<a style="color:white;" href="Register.jsp">Sign Up Here</a>
+</div>
+
+</body>
+</html>

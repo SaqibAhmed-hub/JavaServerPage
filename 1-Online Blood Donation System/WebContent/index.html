@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Online Blood Donation System</title>
+<style type="text/css">
+*{
+	margin:0px;
+	padding:0px;
+	border-box:box-sizing;
+}
+h1{
+	text-transform: uppercase;
+	color:#ff1a1a;
+}
+.log
+{
+		text-align: center;
+		width: 280px;
+		height:280px;
+		position: absolute;
+		top:50%;
+		left:50%;
+		transform:translate(10%,-70%);
+		background-color: #555;
+		border-radius:5px;
+}
+.log label{
+		color:White;
+		font-size: 18px;
+	
+}
+.log input[type="text"],input[type="password"]{
+
+		background: none;
+		width: 80%;
+		border:none;
+		color:white;
+		border-bottom:2px solid white;
+		font-size: 16px;
+		margin:6px 10px;
+		padding:10px;
+}
+.log input[type="Submit"],input[type="Reset"]{
+
+		background: none;
+		width: 70%;
+		color:white;
+		font-size: 16px;
+		margin:8px 10px;
+		padding:10px;
+}
+</style>
+</head>
+<body>
+<center><img src="img/blood-1.jpg"><h1> Online Blood Donation login</h1></center>
+<div class="log">
+<form action="loginprocess.jsp" method="post">
+<label>Username:</label><input type="text" name="uname">
+<label>Password:</label><input type="password" name="pass">
+<input type="submit" value="Login"><input type="reset" value="Cancel"> 
+</form>
+</div>
+</body>
+</html>
